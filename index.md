@@ -37,7 +37,7 @@ ___
 
 ___
 
-![Aesthetic Image](https://unsplash.com/photos/7YKAOFLtB30)
+![Aesthetic Image](symbol.jpg)
 
 ___
 
@@ -46,5 +46,4 @@ ___
         return a = (a>b) ? a : b;
     }
 ```
-
 
