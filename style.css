@@ -1,0 +1,72 @@
+html {
+    color: white;
+    font-family: "Barlow Condensed", sans-serif, "Microsoft Sans Serif";
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+body {
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0 0 5px 10px rgba(0,0,0,0.1);
+    width: 80vw;
+    margin: 0 10vw;
+    padding: 5vh 0;
+    color: white;
+}
+
+body.lighter {
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+}
+
+body * {
+    padding: 0 3vw;
+}
+
+p {
+    line-height: 200%;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    font-style: italic;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+
+h3::before {
+    content: "# ";
+}
+
+h3 + div {
+    background-color: rgba(255,255,255,0.01);
+    padding: 10px 3vw;
+}
+
+button#lighter {
+    position: fixed;
+    bottom: 1vh;
+    right: 1vw;
+    text-align: center;
+    padding: 0 5px;
+}
+
+button#lighter:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+.active {
+    cursor: pointer;
+}
+
+.acc + div {
+    /* max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out; */
+}
